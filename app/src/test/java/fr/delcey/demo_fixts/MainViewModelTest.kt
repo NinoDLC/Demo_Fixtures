@@ -2,6 +2,7 @@ package fr.delcey.demo_fixts
 
 import fr.delcey.data.Repository
 import fr.delcey.data.User
+import fr.delcey.fixtures.DataFixtures.getDefaultUser
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
@@ -40,9 +41,4 @@ class MainViewModelTest {
         // Then
         assertEquals("Hello, Adam Whitney SAVAGE!", mainText)
     }
-
-    private fun getDefaultUser(): User = User(
-        "Nino",
-        "DLC",
-    )
 }

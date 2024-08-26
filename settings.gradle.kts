@@ -23,5 +23,6 @@ dependencyResolutionManagement {
 rootProject.name = "Demo_Fixtures"
 include(
     ":app",
-    ":data"
+    ":data",
+    ":fixtures",
 )

@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    testImplementation(project(":fixtures"))
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
 }
