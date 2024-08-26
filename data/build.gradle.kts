@@ -25,6 +25,10 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+
+    testFixtures {
+        enable = true
+    }
 }
 
 dependencies {
